@@ -6,7 +6,7 @@ fetch("https://v2.jokeapi.dev/joke/any?safe-mode")
 });
 
     function btnJokee(clicked_id) {
-    fetch('https://v2.jokeapi.dev/joke/'+ clicked_id)
+    fetch('https://v2.jokeapi.dev/joke/'+ clicked_id + '?safe-mode')
     .then(Response => Response.json())
     .then(data =>{
         console.log(data);
