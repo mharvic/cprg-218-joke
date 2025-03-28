@@ -9,16 +9,18 @@
 <body>
     <main>
         <section id="joke-container">
-            <h1>Joke of The Day!</h1>
+            <h1 id="title">Joke of The Day!</h1>
             <p id="joke"></p>
         </section>
         <section id="categories">
             <h3>Generate a random joke by Categories:</h3>
-            <button id="Programming" onClick="btnJokee(this.id)">Programming</button>
-            <button id="Miscellaneous" onClick="btnJokee(this.id)">Miscellaneous</button>
-            <button id="Pun" onClick="btnJokee(this.id)">Pun</button>
-            <button id="Spooky" onClick="btnJokee(this.id)">Spooky</button>
-            <button id="Christmas" onClick="btnJokee(this.id)">Christmas</button>
+            <div id="btn-category">
+                <button id="Programming" onClick="btnJokee(this.id)">Programming</button>
+                <button id="Miscellaneous" onClick="btnJokee(this.id)">Miscellaneous</button>
+                <button id="Pun" onClick="btnJokee(this.id)">Pun</button>
+                <button id="Spooky" onClick="btnJokee(this.id)">Spooky</button>
+                <button id="Christmas" onClick="btnJokee(this.id)">Christmas</button>
+            </div>
         </section>
     </main>
      <script src="joke.js"></script>
