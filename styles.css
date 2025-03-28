@@ -14,11 +14,11 @@ main{
     margin: 0 auto;
 }
 
-#categories{
+#btn-category{
     display:flex;
     align-items:center;
     justify-content: center;
-    gap: .5rem;
+    gap: 1rem;
 }
 
 button{
